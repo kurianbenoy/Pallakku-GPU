@@ -1,9 +1,0 @@
-project:
-  output-dir: _docs
-
-website:
-  title: "Pallakku-GPU"
-  site-url: "https://kurianbenoy.github.io/Pallakku-GPU"
-  description: "A GPU API for vegam-whisper-medium-ml"
-  repo-branch: main
-  repo-url: "https://github.com/kurianbenoy/Pallakku-GPU"
