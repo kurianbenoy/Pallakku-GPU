@@ -12,8 +12,8 @@ import modal
 web_app = FastAPI()
 stub = modal.Stub("faster-whisper-app")
 image = modal.Image.from_dockerhub(
-    "pytorch/pytorch:2.0.0-cuda11.7-cudnn8-devel"
-).pip_install("faster-whisper")
+    "ghcr.io/opennmt/ctranslate2:latest-ubuntu20.04-cuda11.2"
+).pip_install("faster-whisper", "ffmpeg-python")
 
 web_app = FastAPI()
 SAMPLE_RATE = 16000
