@@ -9,8 +9,8 @@ Pallakku is Malayalam speech to text demo leveraging the model-weights of [vegam
 ## :boom: TODO
 
 - [x] Basic fastAPI deployment
-- [] faster-whisper deployment with modal
-- [] Malayalam speech to text GPU microservice
+- [ ] faster-whisper deployment with modal
+- [ ] Malayalam speech to text GPU microservice
 
 ## :cowboy_hat_face: Author
 
