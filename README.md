@@ -1,8 +1,10 @@
-Pallakku-GPU
-================
+# Pallakku-GPU
 
-This is my attempt to make Malayalam speech to text demo leveraging the model-weights of vegam-whisper-medium-ml. Here
-I am building a GPU based serverless microservice with modal.
+Pallakku is Malayalam speech to text demo leveraging the model-weights of [vegam-whisper family of models](https://huggingface.co/models?other=vegam). 
+
+> I am building a GPU based serverless microservice with [modal](modal.com/).
+
+[Announcement Blogpost](https://kurianbenoy.com/posts/2023/summit23_iiit/demo.html)
 
 ## :boom: TODO
 
