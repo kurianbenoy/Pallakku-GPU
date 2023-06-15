@@ -67,7 +67,9 @@ def load_audio(file: BinaryIO, encode=True, sr: int = SAMPLE_RATE):
 @web_app.post("/")
 async def upload_file(file: UploadFile = File(...)):
     # Process the file contents here
-    model = WhisperModel("tiny", device="cuda", compute_type="float16")
+    model = WhisperModel(
+        "tiny", device="cuda", compute_type="float16", language_code="en"
+    )
     segments, info = model.transcribe(load_audio(file.file), beam_size=5)
     chunks = [(segment.start, segment.end, segment.text) for segment in segments]
     return {"filename": file.filename, "language": info.language, "chunks": chunks}
