@@ -6,7 +6,7 @@ Pallakku is Malayalam speech to text demo leveraging the model-weights of [vegam
 
 [Announcement Blogpost](https://kurianbenoy.com/posts/2023/summit23_iiit/demo.html)
 
-## :boom: Models Planned to host
+## :boom: Models Planning to host
 
 - [Vegam Whisper](https://huggingface.co/smcproject/vegam-whisper-medium-ml)
 - [MalWhisper Medium](https://huggingface.co/smcproject/Malwhisper-v1-medium)
